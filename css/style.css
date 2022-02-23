@@ -516,11 +516,7 @@ button {
 .menu__btn {
   width: 40px;
   height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  position: relative;
+  display: none;
 }
 
 .menu__btn span {
@@ -528,6 +524,9 @@ button {
   height: 2px;
   width: 100%;
   background-color: #000;
+  position: absolute;
+  left: 0;
+  top: 14px;
 }
 
 .menu__btn::after,
