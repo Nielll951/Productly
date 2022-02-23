@@ -24,12 +24,30 @@
     max-width: none;
     width: 100%;
   }
+
+  .tools__items {
+    flex-wrap: wrap;
+  }
+
+  .tools__item {
+    width: 50%;
+    margin-bottom: 30px;
+    padding-right: 10px;
+  }
 }
 
 @media (max-width: 768px) {
   .top__inner {
     padding: 80px 0 60px;
   } 
+
+  .tools {
+    padding-right: 80px;
+  }
+
+  .tools__inner {
+    padding-bottom: 60px;
+  }
 }
 
 @media (max-width: 524px) {
@@ -83,5 +101,14 @@
 
   .top__btn {
     margin-bottom: 25px;
+  }
+
+  .tools__item {
+    width: 100%;
+  }
+
+  .tools__title {
+    font-size: 24px;
+    line-height: 30px;
   }
 }
