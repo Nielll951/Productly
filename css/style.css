@@ -60,6 +60,11 @@ button {
   line-height: 28px;
   color: #2F281E;
   font-weight: 400;
+  transition: all .5s;
+}
+
+.menu__list-link:hover {
+  color: #ff9900;
 }
 
 .user-nav {
@@ -75,6 +80,12 @@ button {
   padding: 11px 23px;
   border: 1px solid #BCD0E5;
   border-radius: 4px;
+  transition: all .5s;
+}
+
+.user-nav__link:hover {
+  color: #ff9900;
+  border: 1px solid #ff9900;
 }
 
 .user-nav__link + .user-nav__link {
@@ -82,6 +93,16 @@ button {
   border-color: transparent;
   background-color: #ff9900;
   color: #fff;
+}
+
+.user-nav__link + .user-nav__link:hover,
+.top__btn:hover,
+.tools__link:hover,
+.team__btn:hover,
+.footer__form-btn:hover {
+  color: #ff9900;
+  background-color: transparent;
+  border: 1px solid #ff9900;
 }
 
 .top__inner {
@@ -114,7 +135,8 @@ button {
   border-radius: 4px;
   padding: 15px 41px 14px;
   margin-right: 30px;
-  border: none;
+  border: 1px solid transparent;
+  transition: all .5s;
 }
 
 .top__link {
@@ -125,6 +147,11 @@ button {
   text-decoration: underline;
   padding-left: 25px;
   position: relative;
+  transition: all .5s;
+}
+
+.top__link:hover {
+  color: #ff5100;
 }
 
 .top__link::before {
@@ -185,13 +212,15 @@ button {
 .tools__link {
   background-color: #ff9900;
   display: block;
-  padding: 15px 32px 14px;
+  padding: 14px 31px 13px;
   border-radius: 4px;
   color: #fff;
   line-height: 24px;
   font-weight: 700;
   width: 173px;
   margin: 0 auto;
+  border: 1px solid transparent;
+  transition: all .5s;
 }
 
 .direction {
@@ -281,10 +310,11 @@ button {
 .team__btn {
   display: inline-block;
   background-color: #ff9900;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 4px;
   padding: 15px 41px 14px;
   color: #fff;
+  transition: all .5s;
 }
 
 .team__item {
@@ -456,9 +486,6 @@ button {
   background: #ff9900;
 }
 
-.footer {
-}
-
 .footer__inner {
   padding: 105px 0 100px;
   border-top: 1px solid rgba(188, 208, 229, 0.496913);
@@ -482,6 +509,10 @@ button {
   font-size: 16px;
   line-height: 35px;
   color: #544837;
+}
+
+.footer__menu-link:hover {
+  text-decoration: underline;
 }
 
 .footer__form {
@@ -510,7 +541,8 @@ button {
   border-radius: 4px;
   color: #fff;
   padding: 8px 15px 7px;
-  border: none;
+  border: 1px solid transparent;
+  transition: all .5s;
 }
 
 .menu__btn {
